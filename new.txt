@@ -1,5 +1,11 @@
 read me
 
+<<<<<<< HEAD
 hi
 hi
 hi
+=======
+
+Naveen
+PM class
+>>>>>>> origin/master
