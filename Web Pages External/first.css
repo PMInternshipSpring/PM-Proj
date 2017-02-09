@@ -39,7 +39,7 @@ border-bottom: 2px solid #cf6d17;
     height: 150px;
     width: 200px;
     margin-left: 110px;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .search{
@@ -57,6 +57,10 @@ border-bottom: 2px solid #cf6d17;
     border-radius: 5px;
     padding: 2px;
 }
+.icon-large{
+    font-size: 30px;
+}
+
 .connect{
     margin-left: 40px;
     color:white;
@@ -96,7 +100,7 @@ footer{
     padding-bottom: 5px;
 }
 .footer-nav li a{
-    color:white; 
+    color:#fff; 
     
 }
 .footer-links li a{
@@ -111,7 +115,7 @@ list-style: none;
 display:inline-block;
 padding-right: 70px;
 font-size: 20px;
-color: white;
+color:#fff;
 font-size: 10pt;
 }
 .copyright li a{
@@ -126,14 +130,27 @@ font-size: 10pt;
 .footer-icon li a:visited{
     text-decoration: none;
     border: 0;
-    transition: 0.2s color;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s border-bottom;
 }
-
 .footer-nav li a:active,
-.footer-nav li a:hover,
+.footer-nav li a:hover{
+    color: #cf6d17;
+    
+    border-bottom: 1px solid #cf6d17;
+    padding-bottom: 5px;
+}
 .footer-links li a:active,
-.footer-links li a:hover,
+.footer-links li a:hover{
+    
+    color: #cf6d17;
+     border-bottom: 1px solid #cf6d17;
+     padding-bottom: 5px;
+}
 .footer-icon li a:active,
 .footer-icon li a:hover{
- color: #fff;
+    
+    color: #cf6d17;
+     border-bottom: 1px solid #cf6d17;
+     padding-bottom: 5px;
 }
