@@ -20,8 +20,15 @@ create table employee
     employee_job_category varchar(10), employee_hourly_rate decimal(5,2),
     employee_hours_worked dec(3,2),
     hire_date date, termination_date date);
+    
+create table account ( account_id int(11) primary key, user_name varchar(50), password varchar (128)); 
+select * from account;
 
 desc employee_info;
 
 insert into employee_info values ( 12345, "peter", "null", "sedrak", "valparaiso", "grad school", "valparaiso", "IN", 46383, "USA", '12-12-12' ) ;
- select * from employee_info;
+
+
+select * from employee_info;
+ 
+select * from employee;
