@@ -9,6 +9,9 @@ create table employee_info
     employee_zipcode varchar(10), employee_address_country varchar(15),
     birth_date date);
     
+alter table employee_info add employee_email varchar (50) after birth_date; 
+alter table employee_info add contact_number varchar (15) after birth_date;
+    
 show tables;
 drop tables employee_info;
 
@@ -32,4 +35,6 @@ insert into employee_info values ( 12345, "peter", "null", "sedrak", "valparaiso
 select * from employee_info;
  
 select * from employee;
-hihhihihihi
+
+select * from account;
+
