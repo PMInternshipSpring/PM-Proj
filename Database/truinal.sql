@@ -1,20 +1,12 @@
-create database truinal;
 use truinal;
 
-create table employee_info 
-	(employee_id int(11) primary key, employee_first_name varchar(25),
-    employee_middle_name varchar(25), employee_last_name varchar(25),
-    employee_address_1 varchar(100), employee_address_2 varchar(100),
-    employee_address_city varchar(40), employee_address_state char(2),
-    employee_zipcode varchar(10), employee_address_country varchar(15),
-    birth_date date);
-    
 show tables;
-desc employee_info;   
 
-create table employee 
-	(employee_id int(11) primary key, supervisor_employee_id int(11), 
-    employee_department varchar(25), employee_designation varchar(25),
-    employee_job_category varchar(10), employee_hourly_rate decimal(5,2),
-    employee_hours_worked dec(3,2),
-    hire_date date, termination_date date);
+create table project(team varchar(20) primary key, project_status varchar(25), project_name varchar (25), project_description varchar(25), start_date date, project_enddate date,deliverables varchar(20), client varchar(20),eoc date);
+create table Team(employee_id int(11) primary key, team varchar(25), foreign key (team) references project (team));
+
+alter table employee_info add image blob;
+
+select * from account;
+select * from employee;
+select * from employee_info;
