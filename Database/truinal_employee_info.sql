@@ -1,4 +1,4 @@
-
+create truinal;
 use truinal;
 
 create table employee_info 
