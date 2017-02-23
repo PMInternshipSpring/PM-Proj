@@ -1,0 +1,16 @@
+.section-features{
+    margin-left: 25px;
+}
+
+h3{
+   color:#fff;
+    font-size: 18px;
+}
+.box{
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    word-spacing: 1px;
+    text-align: justify;
+    padding:20px;
+}

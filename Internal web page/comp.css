@@ -1,0 +1,21 @@
+.desc{
+    width: 1200px;
+    height: 500px;
+    }
+.heading{
+color: #cf6d17;
+}
+.profil{
+    color: white;
+    margin-top: 1ss0px;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: justify;
+    word-spacing: 1px;
+}
+.comp-details li{
+    color:#fff;
+    font-size: 15px;
+    line-height: 32px;
+}
+

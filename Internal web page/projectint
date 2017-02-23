@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+    <head>
+        
+        <img src="Images/Logo%20truinal.png" width="200" height="160">
+        
+    </head>
+
+    
+    <body>
+   <p class="wel">WELCOME</p>
+
+     <link rel="stylesheet" type="text/css" href="int.css">
+    
+    <div>
+        <nav>
+          	<div class="internal">
+                <ul class="int-list">
+                           <li><a href="#">ORG CHART</a></li>
+                           <li><a href="file:///C:/carrier/Internship/Raci%20Chart%20By%20department.htm">RACI CHART</a></li>
+                	       <li><a href="#">PROJECT TRACKING</a></li>
+                           <li><a href="#">TIME TRACK</a></li>
+                            <center><img src="Images/dribbble-searchbar.jpg" width="100" height="50"></center>
+ 
+                    
+                   
+  
+                    
+                </ul>
+                </div>
+          </nav>
+    </div>
+        </body>
+</html>
