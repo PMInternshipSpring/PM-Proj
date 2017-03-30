@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div background="http://www.lbi-egypt.com/online-software/wp-content/uploads/2016/11/background_bi.jpg">
+<div style="top:10;left:400;position:absolute">
+<font face="Footlight MT Light" color="071F3B"><h1>Project Tracking</h1></font>
+</div>
+<img style="position:absolute;TOP:30px;LEFT:50px;WIDTH:150px;HEIGHT:100px" src="http://imgh.us/logo99_1.jpg">
+<form target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}">
+<div style="top:150;left:150;position:absolute">
+project name <input name="project name"> <br> <br>
+Status <input type="text" name="status"> <br><br>
+Start Date<input type="text" name="start Date"> <br><br>
+End date <input type="text" name="End Date"> <br><br>
+Status <input type="text" name="status"> <br><br>
+Departs Involved <input name="Departs Involved"><br><br>
+<a href="&quot;iteration.html&quot;&gt"><button>add iteration</button></a>
+Iteration  <input type="button" value="Add Iteration"><br><br>
+Milestones <input type="text" name="Milestones"> <br> <br>
+Deliverables<input type="text" name="Deliverables"> <br> <br>
+Client<input type="text" name="Client"> <br> <br>
+Estimated Time <input type="text" name="Estimated Time"> <br> <br>
+Hours Count<input type="text" name="Hours Count"> <br> <br>
+
+  <ul>
+       
+    
+  </ul>
+
+
+</div>
+</form></div>
+
+
+</body>
+</html>
