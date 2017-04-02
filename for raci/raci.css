@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+    }
+.wel{
+    float: left;
+}
+.icon{
+float: right;
+    margin-right: 70px;
+    margin-top: -150px;
+}
+.icon li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.icon-big{
+    font-size: 30px;
+}
+.hello{
+    font-size: 20px;
+    color:#2c3e50;
+}
+.icon li a{
+    text-decoration: none;
+    
+}
+.sign{
+    float: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.icon li a:link,
+.icon li a:visited{
+    color: #2c3e50;
+    transition: 0.2s solid transparent;
+}
+
+.icon li a:active,
+.icon li a:hover{
+    color:#16a085;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.int-list{
+    padding-top: 40px;
+    list-style: none; 
+}
+.int-list li a{
+    background-color: #2ecc71;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    padding-right:30px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.int-list li a:link,
+.int-list li a:visited{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s solid transparent;
+}
+
+.int-list li a:active,
+.int-list li a:hover{
+    color: #fff;
+}
+
+input[type="text"], input[name="search"]{
+    float: right;
+    margin-top:   50px;
+    margin-right: 110px;
+    text-align: center;
+}
