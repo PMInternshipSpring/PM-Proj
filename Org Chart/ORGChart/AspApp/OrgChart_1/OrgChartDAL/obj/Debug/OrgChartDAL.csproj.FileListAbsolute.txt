@@ -1,0 +1,7 @@
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\bin\Debug\OrgChartDAL.dll
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\bin\Debug\OrgChartDAL.pdb
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\bin\Debug\MySql.Data.dll
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\bin\Debug\MySql.Data.xml
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\obj\Debug\OrgChartDAL.csprojResolveAssemblyReference.cache
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\obj\Debug\OrgChartDAL.dll
+C:\Naveen\Desktop Files\Internship Spring\ORGChart\AspApp\OrgChart_1\OrgChartDAL\obj\Debug\OrgChartDAL.pdb

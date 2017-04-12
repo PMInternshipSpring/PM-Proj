@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgChart_1", "OrgChart_1\OrgChart_1.csproj", "{F7B7AE34-C95D-47D6-B095-D89B8356225A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgChartDTO", "OrgChartDTO\OrgChartDTO.csproj", "{E8F329CF-8E9E-46FA-A74F-A66B8277CE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgChartDAL", "OrgChartDAL\OrgChartDAL.csproj", "{FCEFB956-9DA4-4088-8500-1060B8CE8683}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B7AE34-C95D-47D6-B095-D89B8356225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B7AE34-C95D-47D6-B095-D89B8356225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B7AE34-C95D-47D6-B095-D89B8356225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B7AE34-C95D-47D6-B095-D89B8356225A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F329CF-8E9E-46FA-A74F-A66B8277CE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F329CF-8E9E-46FA-A74F-A66B8277CE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F329CF-8E9E-46FA-A74F-A66B8277CE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F329CF-8E9E-46FA-A74F-A66B8277CE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEFB956-9DA4-4088-8500-1060B8CE8683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEFB956-9DA4-4088-8500-1060B8CE8683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEFB956-9DA4-4088-8500-1060B8CE8683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEFB956-9DA4-4088-8500-1060B8CE8683}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
