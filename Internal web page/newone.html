@@ -1,0 +1,149 @@
+.sp-container
+ .sp-sidebar
+  .logo
+   %img{:src => ""}
+  .nav
+   %ul
+    %li.nav-label
+     Main
+    %li
+     %a{:href => "#"}
+      %i.fa.fa- ORGCHART
+      
+    %li.sp-dropdown
+     %a{:href => "#"}
+      %i.fa.fa-user
+      RACI CHART
+     %ul.sp-dropdown-menu
+      %li
+       %a{:href => "#"}
+        By Person
+      %li
+       %a{:href => "#"}
+        By Department
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-money
+      Time Tracking
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-warning
+      Project Tracking
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-rocket
+      Actions
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-flask
+      Funnel
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-arrow-circle-down
+      Export
+    %li.nav-label
+     Misc.
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-gear
+      Settings
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-users
+      Members
+    %li
+     %a{:href => "#"}
+      %i.fa.fa-codepen
+      CodePen
+ .sp-content
+  %header.header
+   .sp-navbar
+    .container-fluid
+     .nav.pull-left
+      %button.prev
+       %i.fa.fa-angle-left
+      %button.next
+       %i.fa.fa-angle-right
+     .profile.pull-right
+      .avatar
+       %img{:src => "http://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/profile/profile-80_3.jpg"}
+      %span
+       Andy Tran
+       %i.fa.fa-unsorted
+   .main-header
+    .container-fluid
+     .top-header
+      .row
+       .col-md-6
+        %ol.breadcrumb
+         %li
+          %a{:href => "#"} Risk Factors
+         %li
+          %a{:href => "#"} Segments
+         %li.active
+          %a{:href => "#"} New Costumers
+       .col-md-6
+        To Do // Tool Bar, Responsive, Modules
+     .page-header
+      .row
+       .col-md-6
+        .page-title
+         .icon
+          %img{:src => "http://placehold.it/65/33b7d8/ffffff&text=SP"}
+         %h1
+          New Costumers
+          %span
+           See Variables
+           %i.fa.fa-angle-down
+       .col-lg-6
+        %ul.nav.nav-pills.pull-right
+         %li.active{:role => "presentation"}
+          %a{:href => "#"}
+           %span.label Created
+           July 1, 2014
+         %li{:role => "presentation"}
+          %a{:href => "#"}
+           %span.label by
+           John Smith
+         %li{:role => "presentation"}
+          %a{:href => "#"}
+           %span.label Members
+           29,418
+           %i.fa.fa-long-arrow-right
+  .main-content
+   .container-fluid
+    .row
+     .col-md-12
+      .module
+       %h2.module-head
+        Segment Graph
+       .module-content
+        Module Content
+    .row
+     .col-md-4
+      .module
+       %h2.module-head
+        Alert
+       .module-content
+        Module Content
+     .col-md-8
+      .module
+       %h2.module-head
+        Segment KPIs
+        .label Graph measured vs. last month
+       .module-content
+        Module Content
+    .row
+     .col-md-12
+      .module
+       %h2.module-head
+        Email Customers
+       .module-content
+        Module Content
+  .container-fluid
+   .row
+    .col-md-12
+     %a.btn.btn-default.toggler{:href => "#"}
+      %i.fa.fa-exchange
+     Toggle Sidebar
+    <html>
