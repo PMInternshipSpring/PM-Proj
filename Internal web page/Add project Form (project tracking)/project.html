@@ -1,0 +1,79 @@
+<html>
+<head>
+<style type="text/css">
+#iteration {
+	margin: auto;
+	padding: 100px;
+	clear: right;
+	float: right;
+	height: auto;
+	width: auto;
+}
+</style>
+<body bg bgcolor="white" ></body>
+<div
+   style="
+      top: 10;
+      left: 450;
+      position: absolute;
+      z-index: 1;
+      visibility: show;"> <font face="Footlight MT Light" color="#013ADF"> &nbsp &nbsp <h1>PROJECT TRACKING</H1>
+</font></div>
+<IMG STYLE="position:absolute; TOP:30px; LEFT:50px; WIDTH:150px; HEIGHT:100px" SRC="http://imgh.us/logo99_1.jpg">
+<form action="project_add.php" method="post"> 
+  <div
+   style="
+      top: 150;
+      left: 450;
+      left: 450;
+	
+      position: absolute;
+      z-index: 1;
+      visibility: show;">
+	
+
+		<label for="project_name">  project name </label>&nbsp
+			<input type='varchar' name='project_name' id ='project_name'> 
+		<br>
+		<br>
+		<label for="project_status"> status </lable> &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp
+			<input type='varchar'  name ='project_status' id='project_status'>
+		<br>
+		<br>
+		<label for="project_description"> Description </lable> &nbsp &nbsp 
+			<input type='varchar'  name ='project_description' id='project_description'>
+		<br>
+		<br>
+		<label for="start_date"> start_date </label> &nbsp &nbsp &nbsp 
+			<input type='date' name ='start_date' id='start_date'>
+		<br>
+		<br>
+		<label for="end_date"> end_date </label> &nbsp &nbsp &nbsp&nbsp
+			<input type='date' name ='end_date' id='end_date'>
+		<br>
+		<br>
+		<label for= "iteration"> iteration number</label>  &nbsp 
+			<input type='int' name='iteration_number' id='iteration_number'> 
+			<a href="iteration.html" tabindex="3" title="iteration" accesskey="3" target="_blank">Click here</a>
+		</a>
+		<br>
+		<br>
+		<label for = "deliverable"> deliverable</label> &nbsp &nbsp
+		<input type='varchar' name='deliverable' id='deliverable'>
+		<br>
+		<br>
+		<label for = "client">client </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  	
+		<input type='varchar' name='client_id' id='client_id'>&nbsp &nbsp 
+
+		<input type="submit" value=" save">
+		<br> <br>
+	</div>
+</form>
+
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+<html>
+<head>
+
+<script>
+function myFunction() 
+{
+    location.href = "project.html";
+}
+</script>
+
+<body background ="#81DAF5">
+
+<div
+   style="
+      top: 10;
+      left: 400;
+	padding:20px;
+      position: absolute;
+      z-index: 1;
+      visibility: show;">
+<font face="Footlight MT Light" color="#013ADF"><h1>ADD ITERATION</h1></font>
+</div>
+<IMG STYLE="position:absolute; TOP:30px; LEFT:50px; WIDTH:150px; HEIGHT:100px" SRC="http://imgh.us/logo99_1.jpg">
+
+<form action="iteration_add.php" method="POST">
+<div
+   style="
+      top: 150;
+      left: 400;
+      position: absolute;
+      z-index: 1;
+      visibility: show;"> 
+
+
+
+<label for="iteration_id">iteration number </label> &nbsp&nbsp 
+	<input type='varchar' name='iteration_id' id ='iteration_id'> <br><br>
+	
+<label for="features">  features</label> &nbsp&nbsp  &nbsp&nbsp
+	<input type='varchar' name='features' id ='features'> <br><br>
+
+<label for="project_id">Project ID</label> &nbsp&nbsp  
+	<input type='int' name='project_id' id ='project_id'> <br><br>
+	
+<label for="status_type"> status</label> &nbsp&nbsp  &nbsp&nbsp &nbsp&nbsp 
+	<input type='varchar' name='status_type' id ='status_type'> <br><br>
+	
+<label for="start_date"> start_date </label>  &nbsp&nbsp  
+	<input type='date' name='start_date' id ='start_date'> <br><br>
+
+<label for="end_date"> end_date </label> &nbsp&nbsp 
+	<input type='date' name='end_date' id ='end_date'><br><br>
+	
+<label for="user_story"> user_story</label> &nbsp
+
+<input type='varchar' name ='user_story'id ='user_story'><br><br>
+<input type="submit" value=" Add iteration"><br><br>
+
+</form>
+
+<form action="project.html"><input type="submit" value=" Back">
+</form>
+
+
+</div>
+
+
+
+</body>
+</html>
+
+ 
